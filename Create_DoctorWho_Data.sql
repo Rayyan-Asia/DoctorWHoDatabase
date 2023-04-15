@@ -18,7 +18,8 @@ insert into Companion(CompanionName,WhoPlayed) values
 ('Elizabeth Shaw','Caroline John'),
 ('Ace','Sophie Aldred'),
 ('Captain Mike Yates','Richard Franklin'),
-('Melanie','Bonnie Langford');
+('Melanie','Bonnie Langford'),
+('TuTu','Tawfieg');
 GO
 
 insert into Doctor(DoctorNumber,DoctorName,BirthDate,FirstEpisodeDate,LastEpisodeDate) 
