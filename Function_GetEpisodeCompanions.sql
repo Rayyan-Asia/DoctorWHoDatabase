@@ -9,7 +9,7 @@ begin
 	
 	-- to remove any commas at the end
 	IF LEN(@episodeCompanions) > 0
-    SET @episodeCompanions = LEFT(@episodeCompanions, LEN(@episodeCompanions) - 2);
+    SET @episodeCompanions = LEFT(@episodeCompanions, LEN(@episodeCompanions) - 1);
 	
 	return @episodeCompanions
 end;
